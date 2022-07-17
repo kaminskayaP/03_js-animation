@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'TTFirsNeue';
+    font-display: swap;
+      font-style: normal;
+      font-weight: 400;
+      src: local(''),
+      url('/fonts/TTFirsNeue-Regular.woff2')format('woff2'), /* Super Modern Browsers */
+      url('/fonts/TTFirsNeue-Regular.woff')format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'TTFirsNeue';
+    font-display: swap;
+      font-style: normal;
+      font-weight: 700;
+      src: local(''),
+      url('/fonts/TTFirsNeue-Bold.woff2')format('woff2'), /* Super Modern Browsers */
+      url('/fonts/TTFirsNeue-Bold.woff')format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'TTFirsNeue';
+    font-display: swap;
+      font-style: normal;
+      font-weight: 900;
+      src: local(''),
+      url('/fonts/TTFirsNeue-ExtraBold.woff2')format('woff2'), /* Super Modern Browsers */
+      url('/fonts/TTFirsNeue-ExtraBold.woff')format('woff'); /* Modern Browsers */
+}
+
+
+html {
+    font-family: 'TTFirsNeue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.btn-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1720px;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* hero */
+.hero {
+    position: relative;
+    background: url('/img/k_-W0PpfU9A.jpg') center center no-repeat transparent;
+    background-size: cover;
+}
+
+.hero__container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px solid #c4c4c4;
+    opacity: .5;  
+}
+
+.hero__grey-block {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 1641px;
+    background-color: #373737;
+}
+
+.hero__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.hero__circle {
+    display: none;
+    position: absolute;
+    left: -31px;
+}
+
+.hero__circle.d-block {
+    display: block;
+}
+
+.hero__circle-icon, circle {
+    width: 106px;
+    height: 106px;
+}
+
+.hero__top-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero__container {
+    padding-top: 58px;
+}
+
+.hero___burger-img {
+    width: 49px;
+    height: 36px;
+    background: url('/img/Burger.png') center center no-repeat transparent;
+    background-size: contain;
+}
+
+.hero__ellipse-icon     {
+    width: 224px;
+    height: 65px;
+}
+
+.hero__list, .hero__item, .hero__link {
+    display: flex;
+    align-items: center;
+}
+
+.hero__item {
+    font-weight: 700;
+}
+
+.hero__item:nth-child(1) {
+    margin-right: 76px;
+}
+
+.hero__arrow-icon {
+    position: relative;
+    top: 3px;
+    width: 40px;
+    height: 16px;
+}
+
+.hero__link-text {
+    margin-right: 30px;
+}
+
+.hero__bot {
+    display: flex;
+    padding-top: 230px;
+    padding-bottom: 160px;
+}
+
+.hero__bot-left {
+    max-width: 740px;
+    margin-right: 60px;
+}
+
+.hero__heading {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 103px;
+}
+
+.hero-descr {
+    margin-bottom: 60px;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.hero__btn {
+    padding: 36px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: inherit;
+    color: #000;
+    background-color: #fff;
+}
+
+.hero__auth {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.hero__auth-link {
+    border-bottom: 1px solid #fff;
+}
+
+.hero__bot-right {
+    position: relative;
+    padding-right: 80px;
+}
+
+.hero__porfolio {
+    padding: 12px 40px 40px 40px;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+.portfolio-1 {
+    z-index: 2;
+}
+
+.portfolio-2 {
+    z-index: -1;
+    position: absolute;
+    left: calc(20px * 1);
+    bottom: calc(-20px * 2);
+}
+
+.portfolio-3 {
+    z-index: -2;
+    position: absolute;
+    left: calc(20px * 2);
+    bottom: calc(-20px * 4);
+}
+
+.portfolio-4 {
+    z-index: -3;
+    position: absolute;
+    left: calc(20px * 3);
+    bottom: calc(-20px * 6);
+}
+
+.portfolio-5 {
+    z-index: -4;
+    position: absolute;
+    left: calc(20px * 4);
+    bottom: calc(-20px * 8);
+}
+
+.hero__portfolio-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__portfolio-time {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.hero__portfolio-list {
+    display: flex;
+}
+
+.hero__portfolio-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.hero__portfolio-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.hero__portfolio-bot {
+    display: flex;
+}
+
+.hero__portfolio-bot-left {
+    margin-right: 16px;
+    flex: 1;
+}
+
+.hero__portfolio-bot-left-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero__portfolio-bot-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* burger */
+.burger {
+    display: none;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 100vh;
+}
+
+.burger.d-block {
+    display: block;
+}
+
+.burger__top {
+    opacity: 0;
+    background-color: #000;
+}
+
+.burger-top__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.burger-top__btn {
+    width: 36px;
+    height: 36px;
+    background: url('/img/Burger\ 2.png') center center no-repeat transparent;
+    background-size: cover;
+}
+
+.burger__bot{
+    opacity: 0;
+    background-color: #373737;
+}
+
+.burger-bot__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 156px;
+}
+
+.burger-bot__list-menu {
+    margin-bottom: 140px;
+}
+
+.burger-bot__text-menu {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.burger-bot__list-social {
+    display: flex;
+}
+
+.burger-bot__item-social:not(:last-child) {
+    margin-right: 36px;
+}
+
+.burger-bot__icon-social {
+    width: 58px;
+    height: 58px;
+}
+
+.burger-bot__right-list {
+    display: flex;
+}
+
+.burger-bot__right-item {
+    margin-right: 166px;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.right-item__item {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.right-item__link {
+    color: #999
+}
